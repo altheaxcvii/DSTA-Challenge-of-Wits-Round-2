@@ -1,0 +1,19 @@
+<?xml version ="1.0" encoding ="UTF-8" ?><data><location>213,136</location> <convo>০ = 0, ১ = 1, ২ = 2, ৩ = 3, ৪ = 4, ৫ = 5, ৬ = 6, ৭ = 7, ৮ = 8, ৯ = 9
+্ = See example (Hasant/Viram) ় = * (Nukta) ʼ = ' (Urdhacomma) ঽ = &amp; (Avagrah) ৺ = ~ (Isshar) ৹ = a~ (Bengali ana sign) ৲ = Rs~ (Bengali Rupee sign) ৳ = T~ (Taka sign) । = | (Devanagari danda) ॥ = || (Devanagari double danda) ₹ = Rs (Indian Rupee sign) 卐 = +~ (Swastika sign) Zero Width Joiner = ^ Zero Width Non Joiner = ^^
+These symbols will type Bengali characters first but if "~" will be followed, it will remove previously typed Bengali character and then type the symbol.
+Symbols &amp; ~ * : ^ | ' have special meaning. You can type this way &amp; = &amp;~ ~ = ~~ * = *~ : = :~ ^ = ^~ | = |~ ' = '~
+The English symbols [ ] { } ( ) < > - + / = ; . , " ? ! % \ _ $ @ # translate into the same symbols.
+Example নমস্কার can be written by typing "namaskaar"
+As per Rule # 3, ligature will be rendered. ZWJ and ZWNJ characters are used to produce alternate rendering of ligature.
+A consonant followed by ZWJ character will produce half-formed consonant character.
+Example
+প্রশ্ন = prashn
+প্রশ্‍ন = prash^n
+A consonant followed by ZWNJ character will produce dead consonant character.
+Example
+প্রশ্ন = prashn
+প্রশ্‌ন = prash^^n
+If two english characters are making one Bengali Vowel (i.e. ai, au), then
+ZWJ character is used to separate them into two different vowels. It will not
+add ZWJ character but only considered as the separator between two
+vowels.</convo> <class>official</class></data>
